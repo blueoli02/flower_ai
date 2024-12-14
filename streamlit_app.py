@@ -76,7 +76,7 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-    "labels[0]": {
+    labels[0]: {
         'images': [
             "https://i.ibb.co/7QhJFgK/image.jpg"
         ],
@@ -87,7 +87,7 @@ content_data = {
             "개나리의 꽃말은 희망과 기대입니다. 봄을 알리는 대표적인 꽃입니다."
         ]
     },
-    "labels[1]": {
+    labels[1]: {
         'images': [
             "https://i.ibb.co/K0qCj3L/image.jpg"
         ],
@@ -98,7 +98,7 @@ content_data = {
             "다닥냉이의 꽃말은 순수한 마음입니다. 작고 귀여운 들꽃입니다."
         ]
     },
-    "labels[2]": {
+    labels[2]: {
         'images': [
             "https://i.ibb.co/mGwR9kn/image.jpg"
         ],
@@ -109,7 +109,7 @@ content_data = {
             "모란의 꽃말은 부귀와 영화입니다. 화려하고 우아한 꽃으로 유명합니다."
         ]
     },
-    "labels[3]": {
+    labels[3]: {
         'images': [
             "https://i.ibb.co/8MtdvsK/image.jpg"
         ],
@@ -120,7 +120,7 @@ content_data = {
             "목련의 꽃말은 고귀함과 자연애입니다. 고상한 아름다움을 상징합니다."
         ]
     },
-    "labels[4]": {
+    labels[4]: {
         'images': [
             "https://i.ibb.co/8XkhQRx/image.jpg"
         ],
@@ -131,7 +131,7 @@ content_data = {
             "민들레의 꽃말은 행복과 순진함입니다. 길가에서 흔히 볼 수 있는 꽃입니다."
         ]
     },
-    "labels[5]": {
+    labels[5]: {
         'images': [
             "https://i.ibb.co/P1qZ0kV/image.webp"
         ],
@@ -142,7 +142,7 @@ content_data = {
             "벚나무의 꽃말은 아름다운 정신입니다. 봄을 대표하는 나무입니다."
         ]
     },
-    "labels[6]": {
+    labels[6]: {
         'images': [
             "https://i.ibb.co/8stmjZh/1am-NA50dk-GCkn-RBC57i-TGPPYBTh-AOcy-Xxr-VYbd0-Fummq-XZ6g2io-Snn5-GII-vs-U-8-Uqs6-Ddn0-TU1-Qk-J6ra-S.webp"
         ],
@@ -153,7 +153,7 @@ content_data = {
             "복수초의 꽃말은 영원한 행복과 슬픈 추억입니다. 봄의 전령으로 알려져 있습니다."
         ]
     },
-    "labels[7]": {
+    labels[7]: {
         'images': [
             "https://i.ibb.co/BPCDBzf/20100218054123-1.jpg"
         ],
@@ -164,7 +164,7 @@ content_data = {
             "산철쭉의 꽃말은 사랑의 기쁨입니다. 산에서 흔히 볼 수 있는 꽃입니다."
         ]
     },
-    "labels[8]": {
+    labels[8]: {
         'images': [
             "https://i.ibb.co/rQZbpmg/image.webp"
         ],
@@ -175,7 +175,7 @@ content_data = {
             "영산홍의 꽃말은 희생과 사랑입니다. 진달래와 유사한 꽃입니다."
         ]
     },
-    "labels[9]": {
+    labels[9]: {
         'images': [
             "https://i.ibb.co/0DvZygX/image.webp"
         ],
@@ -186,7 +186,7 @@ content_data = {
             "유채의 꽃말은 쾌활함입니다. 노란 꽃으로 널리 알려져 있습니다."
         ]
     },
-    "labels[10]": {
+    labels[10]: {
         'images': [
             "https://i.ibb.co/5YDC0k4/image.jpg"
         ],
@@ -197,7 +197,7 @@ content_data = {
             "자목련의 꽃말은 고귀함과 숭고함입니다. 보라빛의 목련입니다."
         ]
     },
-    "labels[11]": {
+    labels[11]: {
         'images': [
             "https://i.ibb.co/TPgfYD2/image.jpg"
         ],
@@ -208,7 +208,7 @@ content_data = {
             "패랭이꽃의 꽃말은 순결과 우정입니다. 화분에 키우기 좋은 꽃입니다."
         ]
     },
-    "labels[12]": {
+    labels[12]: {
         'images': [
             "https://i.ibb.co/kGv4b40/image.jpg"
         ],
@@ -225,7 +225,7 @@ content_data = {
 
     
 # 레이아웃 설정
-left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 조정
+left_column, right_column = st.columns([2, 1])  # 왼쪽과 오른쪽의 비율 조정
 
 # 파일 업로드 컴포넌트 (jpg, png, jpeg, webp, tiff 지원)
 uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "png", "jpeg", "webp", "tiff"])
