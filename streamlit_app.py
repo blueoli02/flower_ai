@@ -76,7 +76,73 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-   labels[0]: {
+    "labels[0]": {
+        'images': [
+            "https://i.ibb.co/7QhJFgK/image.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=S4LlJBZ0H0w"
+        ],
+        'texts': [
+            "개나리의 꽃말은 희망과 기대입니다. 봄을 알리는 대표적인 꽃입니다."
+        ]
+    },
+    "labels[1]": {
+        'images': [
+            "https://i.ibb.co/K0qCj3L/image.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=nvO5HVXGrDQ"
+        ],
+        'texts': [
+            "다닥냉이의 꽃말은 순수한 마음입니다. 작고 귀여운 들꽃입니다."
+        ]
+    },
+    "labels[2]": {
+        'images': [
+            "https://i.ibb.co/mGwR9kn/image.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=Ueq8f1er7Ns"
+        ],
+        'texts': [
+            "모란의 꽃말은 부귀와 영화입니다. 화려하고 우아한 꽃으로 유명합니다."
+        ]
+    },
+    "labels[3]": {
+        'images': [
+            "https://i.ibb.co/8MtdvsK/image.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=soWRF9NIJp4"
+        ],
+        'texts': [
+            "목련의 꽃말은 고귀함과 자연애입니다. 고상한 아름다움을 상징합니다."
+        ]
+    },
+    "labels[4]": {
+        'images': [
+            "https://i.ibb.co/8XkhQRx/image.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=_WoNEis4HoY"
+        ],
+        'texts': [
+            "민들레의 꽃말은 행복과 순진함입니다. 길가에서 흔히 볼 수 있는 꽃입니다."
+        ]
+    },
+    "labels[5]": {
+        'images': [
+            "https://i.ibb.co/P1qZ0kV/image.webp"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=M_o7GSDVk-Q"
+        ],
+        'texts': [
+            "벚나무의 꽃말은 아름다운 정신입니다. 봄을 대표하는 나무입니다."
+        ]
+    },
+    "labels[6]": {
         'images': [
             "https://i.ibb.co/8stmjZh/1am-NA50dk-GCkn-RBC57i-TGPPYBTh-AOcy-Xxr-VYbd0-Fummq-XZ6g2io-Snn5-GII-vs-U-8-Uqs6-Ddn0-TU1-Qk-J6ra-S.webp"
         ],
@@ -84,10 +150,10 @@ content_data = {
             "https://www.youtube.com/watch?v=aSD_cgRNgus"
         ],
         'texts': [
-            "복수초 - 꽃말: 영원한 행복 또는 슬픈 추억, 한국의 산야에서 봄을 알리는 꽃입니다."
+            "복수초의 꽃말은 영원한 행복과 슬픈 추억입니다. 봄의 전령으로 알려져 있습니다."
         ]
     },
-    labels[1]: {
+    "labels[7]": {
         'images': [
             "https://i.ibb.co/BPCDBzf/20100218054123-1.jpg"
         ],
@@ -95,131 +161,66 @@ content_data = {
             "https://www.youtube.com/watch?v=qlecJHm6itk"
         ],
         'texts': [
-            "산철쭉 - 꽃말: 사랑의 기쁨, 한국의 산림에서 쉽게 볼 수 있는 봄꽃입니다."
+            "산철쭉의 꽃말은 사랑의 기쁨입니다. 산에서 흔히 볼 수 있는 꽃입니다."
         ]
     },
-    labels[2]: {
+    "labels[8]": {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
+            "https://i.ibb.co/rQZbpmg/image.webp"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=qBdvCnTuTEk"
         ],
         'texts': [
-            "개나리 - 꽃말: 희망, 희망찬 봄을 알리는 꽃으로 한국에서 흔히 볼 수 있는 관목입니다."
+            "영산홍의 꽃말은 희생과 사랑입니다. 진달래와 유사한 꽃입니다."
         ]
     },
-    labels[3]: {
+    "labels[9]": {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
+            "https://i.ibb.co/0DvZygX/image.webp"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=3LhbpE0mhsk
         ],
         'texts': [
-            "벚나무 - 꽃말: 정신의 아름다움, 봄철에 아름다운 벚꽃을 피우며 일본과 한국에서 상징적인 존재입니다."
+            "유채의 꽃말은 쾌활함입니다. 노란 꽃으로 널리 알려져 있습니다."
         ]
     },
-    labels[4]: {
+    "labels[10]": {
         'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
+            "https://i.ibb.co/5YDC0k4/image.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=j_e-5qpCn3I"
         ],
         'texts': [
-            "민들레 - 꽃말: 행복, 작고 노란 꽃으로 어린 시절의 추억과 소망을 상징합니다."
+            "자목련의 꽃말은 고귀함과 숭고함입니다. 보라빛의 목련입니다."
         ]
     },
-    labels[5]: {
+    "labels[11]": {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
+            "https://i.ibb.co/TPgfYD2/image.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://www.youtube.com/watch?v=sRn8B7lWAp0"
         ],
         'texts': [
-            "목련 - 꽃말: 고귀함, 고급스러운 큰 꽃으로 봄의 시작을 알리는 나무입니다."
+            "패랭이꽃의 꽃말은 순결과 우정입니다. 화분에 키우기 좋은 꽃입니다."
         ]
     },
-    labels[6]: {
+    "labels[12]": {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
+            "https://i.ibb.co/kGv4b40/image.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=4_ObwHMIPJU"
         ],
         'texts': [
-            "자목련 - 꽃말: 사랑의 기쁨, 짙은 자주색의 우아한 꽃이 특징입니다."
-        ]
-    },
-    labels[7]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "유채 - 꽃말: 쾌활, 밝은 노란색 꽃으로 봄의 들판을 물들입니다."
-        ]
-    },
-    labels[8]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "영산홍 - 꽃말: 첫사랑, 화려한 붉은 빛의 철쭉류 꽃입니다."
-        ]
-    },
-    labels[9]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-        ],
-        'texts': [
-            "모란 - 꽃말: 부귀, 크고 화려한 꽃으로 부유함과 행복을 상징합니다."
-        ]
-    },
-    labels[10]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "패랭이꽃 - 꽃말: 순결, 섬세하고 단아한 아름다움의 상징입니다."
-        ]
-    },
-    labels[11]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "다닥냉이 - 꽃말: 극복, 작은 크기에도 불구하고 강인한 생명력을 보여줍니다."
-        ]
-    },
-    labels[12]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "팬지 - 꽃말: 사색, 다양한 색상으로 사람들의 마음을 사로잡는 아름다운 꽃입니다."
+            "팬지의 꽃말은 생각과 사색입니다. 다양한 색상으로 피어납니다."
         ]
     }
 }
+
     
 
     
