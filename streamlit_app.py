@@ -76,222 +76,151 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-    labels[0]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "복수초는 영원한 행복 또는 슬픈 추억 꽃말을 가지고 있어요.\n은 미나리아재비과에 속하는 복수초는 측금잔화 (황금색 잔모양의 꽃), 원일초(설날에 피는 꽃), 설련화(눈색이꽃, 눈 속에서 꽃이 핀다), 얼음새꽃(빙리화, 얼음 상이에 꽃이 핀다) 등의 다양한 이름으로도 불려요.\n복수초는 줄기가 분지하지 않기 때문에 꽃이 1개만 달리며, 잎보다 꽃이 먼저 개화하고, 꽃잎보다 긴 꽃받침이 8장인 특징을 가지며, 개복수초와 세복수초는 줄기가 분지하고 각각 줄기 끝에 꽃이 달려 꽃이 많이 달리고, 꽃잎보다 짧은 꽃받침을 가진 특징으로 구분됩니다. 또한, 개복수초는 세복수초와 비교하면 줄기의 속이 차있고, 잎의 소열편이 피침형이며, 잎의 선단부는 뾰족하고, 꽃받침 너비가 꽃잎보다 넓으며, 수과괴는 타원형인 특징으로 구분됩니다. 국내에서 생육하는 복수초는 해발 800m의 높은 산지에 생육하고 있어서 주변에서 흔히 보이는 복수초속 식물은 대부분 개복수초이며, 특히 제주도에서는 세복수초만이 분포하고 있습니다. "
-        ]
-    },
-    labels[1]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
-          
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-       
-        ],
-        'texts': [
-            "봇치더락입니다."
-     
-        ]
-    },
-    labels[2]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-       
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-          
-        ],
-        'texts': [
-            "스즈매의 문단속"
-        
-        ]
-    },
-    labels[3]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-         
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-           
-        ],
-        'texts': [
-            "장송의프리렌"
-         
-        ]
-    }
+   labels[0]: {
+    'images': [
+        "https://i.ibb.co/8stmjZh/1am-NA50dk-GCkn-RBC57i-TGPPYBTh-AOcy-Xxr-VYbd0-Fummq-XZ6g2io-Snn5-GII-vs-U-8-Uqs6-Ddn0-TU1-Qk-J6ra-S.webp"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=aSD_cgRNgus"
+    ],
+    'texts': [
+        "복수초 - 꽃말: 영원한 행복 또는 슬픈 추억, 한국의 산야에서 봄을 알리는 꽃입니다."
+    ]
+},
+labels[1]: {
+    'images': [
+        "https://i.ibb.co/BPCDBzf/20100218054123-1.jpg"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=qlecJHm6itk"
+    ],
+    'texts': [
+        "산철쭉 - 꽃말: 사랑의 기쁨, 한국의 산림에서 쉽게 볼 수 있는 봄꽃입니다."
+    ]
+},
+labels[2]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "개나리 - 꽃말: 희망, 희망찬 봄을 알리는 꽃으로 한국에서 흔히 볼 수 있는 관목입니다."
+    ]
+},
+labels[3]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "벚나무 - 꽃말: 정신의 아름다움, 봄철에 아름다운 벚꽃을 피우며 일본과 한국에서 상징적인 존재입니다."
+    ]
+},
+labels[4]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label1_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "민들레 - 꽃말: 행복, 작고 노란 꽃으로 어린 시절의 추억과 소망을 상징합니다."
+    ]
+},
+labels[5]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label2_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+    ],
+    'texts': [
+        "목련 - 꽃말: 고귀함, 고급스러운 큰 꽃으로 봄의 시작을 알리는 나무입니다."
+    ]
+},
+labels[6]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "자목련 - 꽃말: 사랑의 기쁨, 짙은 자주색의 우아한 꽃이 특징입니다."
+    ]
+},
+labels[7]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "유채 - 꽃말: 쾌활, 밝은 노란색 꽃으로 봄의 들판을 물들입니다."
+    ]
+},
+labels[8]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label1_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "영산홍 - 꽃말: 첫사랑, 화려한 붉은 빛의 철쭉류 꽃입니다."
+    ]
+},
+labels[9]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label2_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+    ],
+    'texts': [
+        "모란 - 꽃말: 부귀, 크고 화려한 꽃으로 부유함과 행복을 상징합니다."
+    ]
+},
+labels[10]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "패랭이꽃 - 꽃말: 순결, 섬세하고 단아한 아름다움의 상징입니다."
+    ]
+},
+labels[11]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label3_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "다닥냉이 - 꽃말: 극복, 작은 크기에도 불구하고 강인한 생명력을 보여줍니다."
+    ]
+},
+labels[12]: {
+    'images': [
+        "https://via.placeholder.com/300?text=Label1_Image1"
+    ],
+    'videos': [
+        "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+    ],
+    'texts': [
+        "팬지 - 꽃말: 사색, 다양한 색상으로 사람들의 마음을 사로잡는 아름다운 꽃입니다."
+    ]
 }
-    labels[0]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "명탐정코난"
-        ]
-    },
-    labels[1]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
-          
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-       
-        ],
-        'texts': [
-            "봇치더락입니다."
-     
-        ]
-    },
-    labels[2]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-       
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-          
-        ],
-        'texts': [
-            "스즈매의 문단속"
-        
-        ]
-    },
-    labels[3]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-         
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-           
-        ],
-        'texts': [
-            "장송의프리렌"
-         
-        ]
-    }
-}
-    labels[0]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "명탐정코난"
-        ]
-    },
-    labels[1]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
-          
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-       
-        ],
-        'texts': [
-            "봇치더락입니다."
-     
-        ]
-    },
-    labels[2]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-       
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-          
-        ],
-        'texts': [
-            "스즈매의 문단속"
-        
-        ]
-    },
-    labels[3]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-         
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-           
-        ],
-        'texts': [
-            "장송의프리렌"
-         
-        ]
-    }
-}
-    labels[0]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-        ],
-        'texts': [
-            "명탐정코난"
-        ]
-    },
-    labels[1]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1"
-          
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-       
-        ],
-        'texts': [
-            "봇치더락입니다."
-     
-        ]
-    },
-    labels[2]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-       
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-          
-        ],
-        'texts': [
-            "스즈매의 문단속"
-        
-        ]
-    },
-    labels[3]: {
-        'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1"
-         
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
-           
-        ],
-        'texts': [
-            "장송의프리렌"
-         
-        ]
-    }
-}
+
+    
 # 레이아웃 설정
 left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 조정
 
