@@ -180,7 +180,7 @@ content_data = {
             "https://i.ibb.co/0DvZygX/image.webp"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3LhbpE0mhsk
+            "https://www.youtube.com/watch?v=3LhbpE0mhsk"
         ],
         'texts': [
             "유채의 꽃말은 쾌활함입니다. 노란 꽃으로 널리 알려져 있습니다."
