@@ -225,7 +225,7 @@ content_data = {
 
     
 # 레이아웃 설정
-left_column, right_column = st.columns([5, 4])  # 왼쪽과 오른쪽의 비율 조정
+left_column, right_column = st.columns([9, 10])  # 왼쪽과 오른쪽의 비율 조정
 
 # 파일 업로드 컴포넌트 (jpg, png, jpeg, webp, tiff 지원)
 uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "png", "jpeg", "webp", "tiff"])
